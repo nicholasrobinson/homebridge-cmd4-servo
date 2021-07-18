@@ -14,21 +14,15 @@ I wanted to control a servo to latch and unlatch my dog door using Homebridge. T
                 "type": "Switch",
                 "displayName": "LATCH",
                 "on": "FALSE",
-                "name": "Dog Door Latch",
-                "state_cmd": "/var/lib/homebridge/Cmd4Scripts/DogDoorLatch.sh",
-                "polling": true,
-                "interval": 5,
-                "timeout": 60000
+                "name": "Dog Door Servo - Latch",
+                "state_cmd": "/var/lib/homebridge/Cmd4Scripts/DogDoorLatch.sh"
             },
             {
                 "type": "Switch",
                 "displayName": "UNLATCH",
                 "on": "FALSE",
-                "name": "Dog Door Unlatch",
-                "state_cmd": "/var/lib/homebridge/Cmd4Scripts/DogDoorLatch.sh",
-                "polling": true,
-                "interval": 5,
-                "timeout": 60000
+                "name": "Dog Door Servo - Unlatch",
+                "state_cmd": "/var/lib/homebridge/Cmd4Scripts/DogDoorLatch.sh"
             }
         ]
    }
