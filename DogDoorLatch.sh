@@ -16,7 +16,7 @@ fi
 
 if [ "$1" = "Set" ]; then
    if [ "$3" = "On" ]; then
-      if [ "$4" = "true" ]; then
+      if [ "$4" = "1" ]; then
          # Execute dog_door_latch.py
          ./dog_door_latch.py "$2"
          exit $?
