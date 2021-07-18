@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Script for controlling a servo using pigpio.
-# Usage: bash DogDoorLatch.sh Set <LATCH/UNLATCH> On true
+# Usage: bash DogDoorLatch.sh Set <LATCH/UNLATCH> On 1
 
 if [ "$1" = "Get" ]; then
     if [ "$3" = "Name" ]; then
